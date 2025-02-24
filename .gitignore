@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Temporary Files
+*.log
+*.sqlite3
+
+# Alembic Migrations
+migrations/
+
+# Docker & Kubernetes
+*.dockerignore
+infra/kubernetes/
